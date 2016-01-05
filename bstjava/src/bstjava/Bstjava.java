@@ -4,9 +4,12 @@ import java.util.Scanner;
 
 public class Bstjava {
 
-   
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in);
+        // TODO code application logic here
+          Scanner scan = new Scanner(System.in);
        
         link bst = new link(); 
         System.out.println("Binary Search Tree Test\n");          
@@ -56,7 +59,7 @@ public class Bstjava {
  
             System.out.println("\nDo you want to continue (Type y or n) \n");
             ch = scan.next().charAt(0);                        
-        } while (ch == 'Y'|| ch == 'y');  
+        } while (ch == 'Y'|| ch == 'y'); 
     }
     
 }

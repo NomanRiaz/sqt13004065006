@@ -1,9 +1,16 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package bstjava;
 
-
+/**
+ *
+ * @author DEEL 1
+ */
 public class link {
-    bstnode root;
+   bstnode root;
     
     public link(){
        root=null;
@@ -165,5 +172,5 @@ public class link {
              postorder(r.getright());
              System.out.print(r.getData() +" ");
          }
-     } 
+     }  
 }
